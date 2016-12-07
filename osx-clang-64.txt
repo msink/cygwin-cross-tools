@@ -1,0 +1,15 @@
+[host_machine]
+system     = 'darwin'
+cpu_family = 'x86_64'
+cpu        = 'x86_64'
+endian     = 'little'
+
+[binaries]
+c          = 'c:/cygwin-cross/bin/x86_64-apple-darwin14-clang'
+cpp        = 'c:/cygwin-cross/bin/x86_64-apple-darwin14-clang++'
+ar         = 'c:/cygwin-cross/bin/x86_64-apple-darwin14-ar'
+strip      = 'c:/cygwin-cross/bin/x86_64-apple-darwin14-strip'
+pkgconfig  = 'c:/cygwin-cross/bin/x86_64-apple-darwin14-pkg-config'
+
+[properties]
+root       = 'c:/cygwin-cross/usr/SDK/MacOSX10.10.sdk'

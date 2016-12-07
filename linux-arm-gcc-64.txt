@@ -1,0 +1,15 @@
+[host_machine]
+system     = 'linux'
+cpu_family = 'arm'
+cpu        = 'aarch64'
+endian     = 'little'
+
+[binaries]
+c          = 'c:/cygwin-cross/bin/aarch64-unknown-linux-gnu-gcc'
+cpp        = 'c:/cygwin-cross/bin/aarch64-unknown-linux-gnu-g++'
+ar         = 'c:/cygwin-cross/bin/aarch64-unknown-linux-gnu-ar'
+strip      = 'c:/cygwin-cross/bin/aarch64-unknown-linux-gnu-strip'
+pkgconfig  = 'c:/cygwin-cross/bin/aarch64-unknown-linux-gnu-pkg-config'
+
+[properties]
+root       = 'c:/cygwin-cross/usr/aarch64-unknown-linux-gnu/sys-root'

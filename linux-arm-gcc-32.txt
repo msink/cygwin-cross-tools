@@ -1,0 +1,15 @@
+[host_machine]
+system     = 'linux'
+cpu_family = 'arm'
+cpu        = 'armv7hl'
+endian     = 'little'
+
+[binaries]
+c          = 'c:/cygwin-cross/bin/armv7hl-unknown-linux-gnueabi-gcc'
+cpp        = 'c:/cygwin-cross/bin/armv7hl-unknown-linux-gnueabi-g++'
+ar         = 'c:/cygwin-cross/bin/armv7hl-unknown-linux-gnueabi-ar'
+strip      = 'c:/cygwin-cross/bin/armv7hl-unknown-linux-gnueabi-strip'
+pkgconfig  = 'c:/cygwin-cross/bin/armv7hl-unknown-linux-gnueabi-pkg-config'
+
+[properties]
+root       = 'c:/cygwin-cross/usr/armv7hl-unknown-linux-gnueabi/sys-root'

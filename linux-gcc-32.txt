@@ -1,0 +1,15 @@
+[host_machine]
+system     = 'linux'
+cpu_family = 'x86'
+cpu        = 'i686'
+endian     = 'little'
+
+[binaries]
+c          = 'c:/cygwin-cross/bin/i686-pc-linux-gnu-gcc'
+cpp        = 'c:/cygwin-cross/bin/i686-pc-linux-gnu-g++'
+ar         = 'c:/cygwin-cross/bin/i686-pc-linux-gnu-ar'
+strip      = 'c:/cygwin-cross/bin/i686-pc-linux-gnu-strip'
+pkgconfig  = 'c:/cygwin-cross/bin/i686-pc-linux-gnu-pkg-config'
+
+[properties]
+root       = 'c:/cygwin-cross/usr/i686-pc-linux-gnu/sys-root'
