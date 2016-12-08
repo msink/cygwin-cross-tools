@@ -11,7 +11,9 @@ Collection of cross-compilers running on windows (cygwin) and targeting:
 | osx       |  64 bit   | clang    |  3.9.0  | x86_64-apple-darwin14-          |
 | osx       |  32 bit   | clang    |  3.9.0  | i386-apple-darwin14-            |
 
-### alternative download links:
+### installed packages:
+- zlib-develop
 
+### alternative download links:
 - [Dropbox](https://www.dropbox.com/s/v568l2cpxnum7rz/cygwin-cross.7z)
 - [Yandex Disk](https://yadi.sk/d/knCTnE4632SanY)
